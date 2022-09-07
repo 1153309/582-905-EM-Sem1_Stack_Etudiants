@@ -1,0 +1,39 @@
+.hero .wrapper *{
+    border: 1px solid red;
+}
+
+.hero {
+    .wrapper {
+        display: flex;
+        align-items: center;
+
+        div {
+            display: flex;
+        }
+    }
+
+    .hero_content {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        width: 60%;
+
+        .a {
+            width: 50%;
+
+        }
+
+        .button {
+        }
+
+        .h1 {
+
+        }
+    }
+
+    .subtitle {
+        width: 36%;
+        margin-bottom: 4%;
+    }
+}
