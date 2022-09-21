@@ -5,15 +5,15 @@
     .wrapper {
     }
 
-    .title {
+    .testimonies_header {
         display: flex;
         gap: 56px;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
     }
 
     .cards {
+        margin-top: 50px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
@@ -24,23 +24,19 @@
         background-color: white;
         border-radius: 15px;
         align-items: center;
-        padding: var(--spacing-lg);
+        padding: var(--spacing-md);
         justify-content: space-between;
-        text-align: center;
         color: var(--Color-typo-pale);
         box-shadow: 0 0 50px #ccc;
-    }
 
-    ul {
-        list-style: none;
-        display: flex;
-        gap: 5px;
-        margin: auto;
-        padding: 0px;
+        h3 {
+            padding-top: 30px;
+        }
     }
 
     .subtitle {
         color: #2625BF;
+        box-shadow: 6px 9px 15px 5px rgba(0,13,81,0.20);
     }
 
     .card_media {
@@ -49,19 +45,25 @@
 
     .card_content {
         width: 60%;
+        text-align: left;
 
-        p {
-            text-align: left;
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 5px;
+            margin: auto;
+            padding: 0px;
         }
     }
 
-    .review {
-        margin: auto;
-        font-size: var(--font-secondary);
-        margin-bottom: 5px;
+    p {
+        font-weight: normal;
+        color: var(--Color-typo-fonce);
+        margin-top: 0;
+        margin-bottom: 10px;
     }
 
-    .reviewerName {
+    h4 {
         font-size: small;
     }
 
